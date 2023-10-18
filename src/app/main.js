@@ -1,7 +1,7 @@
 import "./style.pcss"
-import javascriptLogo from "../javascript.svg"
-import viteLogo from "../public/vite.svg"
-import { setupCounter } from "../counter.js"
+import javascriptLogo from "./javascript.svg"
+import viteLogo from "../../public/vite.svg"
+import { setupCounter } from "./counter.js"
 import { worker } from "../shared/api/browser"
 
 worker.start({ onUnhandledRequest: "bypass" })
