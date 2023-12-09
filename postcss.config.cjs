@@ -3,7 +3,7 @@ const postCssPresetEnv = require("postcss-preset-env")
 const customMedia = require("postcss-custom-media")
 
 module.exports = {
-    plugins:[
+    plugins: [
         nested(),
         postCssPresetEnv(),
         customMedia({}),
